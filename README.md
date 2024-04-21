@@ -11,7 +11,7 @@ use App\Traits\Thumbnails;
 
 class Order extends Model
 {	
-	use Thumbnails;
+  use Thumbnails;
   protected $table = 'order';
 }
 ```
