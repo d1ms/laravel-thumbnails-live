@@ -20,8 +20,8 @@ class Order extends Model
 ```
 <img src="{{ $order->urlThumbnails('avatar', '60x60' , 'fit') }}" width="60" height="60" />
 ```
-Where - 'avatar' - it is column name that contain the path to source image
-        '60x60' - it is thumbnail size
+Where - 'avatar' - it is column name that contain the path to source image;
+        '60x60' - it is thumbnail size;
         'fit' - it is a resize method ( allows methods: fit , resize , crop )
 
 6. Done. Congrantulations. If you have any promlems, then you need to check up your path to source file inside the ``Traits/Thumbnails.php``
